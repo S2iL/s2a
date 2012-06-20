@@ -1,0 +1,8 @@
+#<IfModule mod_rewrite.c>
+#    RewriteEngine On
+#    RewriteCond %{REQUEST_FILENAME} !-f
+#    RewriteRule ^(.*)$ app.php [QSA,L]
+#</IfModule>
+
+
+#secret cd5f4c5f610cc18210be17ecf8bcf186e6
